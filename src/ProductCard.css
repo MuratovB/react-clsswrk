@@ -8,7 +8,7 @@
   transition: transform 0.2s ease-in-out;
   display: flex;
   flex-direction: column;
-
+  justify-content: space-evenly;
 }
 
 .product-card:hover {
@@ -21,6 +21,11 @@
   border-radius: 8px;
 }
 
+.product-title,
+.product-category {
+  text-align: left;
+}
+
 .product-title {
   font-size: 18px;
   margin: 10px 0;
@@ -29,7 +34,6 @@
 .product-category {
   font-size: 14px;
   color: #4169E1;
-  
 }
 
 .product-price {
@@ -53,7 +57,17 @@
   background-color: #425eb3;
 }
 
+.product-img-div {
+  height: 435px;
+}
+
 .product-price-div {
+  height: 20%;
   display: flex;
   justify-content: space-evenly;
+  align-items: end;
+}
+
+.product-text-div {
+  height: 120px;
 }
