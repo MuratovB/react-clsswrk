@@ -13,6 +13,7 @@
 
 .product-card:hover {
   transform: translateY(-10px);
+  border: 1px solid #4169E1;
 }
 
 .product-image {
